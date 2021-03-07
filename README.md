@@ -10,6 +10,8 @@ The main question for the following research was the connection between social m
 
 ## Requirements
 
+If you want to use our scripts to create the plots for the approaches, make sure you have the following dependencies installed
+
 ### Tidyverse
 tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures.
 
@@ -27,4 +29,4 @@ install.packages("ggplot2")
 ```
 ## Usage
 
-make sure to select the dataset folder as your working directory
+Make sure to select the dataset folder as your working directory
