@@ -6,3 +6,19 @@ The main question for the following research was the connection between social m
 <img src="https://raw.githubusercontent.com/republic-eclipse/Data-Science-Intern/main/img/mentalhealth.png" align="right"
      alt="Size Limit logo by Anton Lovchikov" width=600 >
 
+## Requirements
+
+### Tidyverse
+tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures.
+
+Install the complete tidyverse with:
+
+```
+install.packages("tidyverse")
+```
+### ggplot2
+ggplot2 is a system for declaratively creating graphics, based on The Grammar of Graphics. You provide the data, tell ggplot2 how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details.
+
+```
+install.packages("ggplot2")
+```
