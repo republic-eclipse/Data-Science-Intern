@@ -21,7 +21,7 @@ install.packages("tidyverse")
 ### ggplot2
 ggplot2 is a system for declaratively creating graphics, based on The Grammar of Graphics. You provide the data, tell ggplot2 how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details.
 
-Install the complete ggplot with:
+Install ggplot with:
 ```
 install.packages("ggplot2")
 ```
