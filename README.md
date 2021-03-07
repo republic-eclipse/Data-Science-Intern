@@ -25,3 +25,5 @@ Install the complete ggplot with:
 ```
 install.packages("ggplot2")
 ```
+## Usage
+
