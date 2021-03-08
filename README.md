@@ -5,8 +5,7 @@ The main question for the following research was the connection between social m
 
 * You can read our report [here](https://github.com/republic-eclipse/Data-Science-Intern/blob/main/paper/Paper_social%20media-vs-metnal%20health.pdf)
 
-<img src="https://images.pexels.com/photos/3958403/pexels-photo-3958403.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" align="right"
-     alt="Size Limit logo by Anton Lovchikov" width=530 >
+<img src="https://raw.githubusercontent.com/republic-eclipse/Data-Science-Intern/main/img/mentalhealth.png" align="right" width=530 >
 
 ## Requirements
 
