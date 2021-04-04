@@ -131,6 +131,28 @@ adhd_cor<-cor(countries_span$Social_Media_Usage, countries_span$ADHD_Rate)
 anxiety_cor<-cor(countries_span$Social_Media_Usage, countries_span$ANXIETY_Rate)
 
 
+#### testing if correlation is significant with Pearson's correlation coefficient.
+
+cor.test(countries_span$Social_Media_Usage, countries_span$DEPRESSION_Rate)
+
+#95 percent confidence interval:   -0.7015490  0.3018543
+# interpretation: CI crosses zero, then correlation is not different than zero.
+
+cor.test(countries_span$Social_Media_Usage, countries_span$ADHD_Rate)
+
+# 95 percent confidence interval:  -0.5078836  0.5525393
+# interpretation: CI includes zero, then correlation is not different than zero.
+
+
+cor.test(countries_span$Social_Media_Usage, countries_span$ANXIETY_Rate)
+
+# 95 percent confidence interval:  -0.5078836  0.5525393
+# interpretation: CI includes zero, then correlation is not different than zero.
+
+# 95 percent confidence interval:  -0.5730142  0.4853075
+# interpretation: CI includes zero, then correlation is not different than zero.
+
+
 #######Country pairs method
 set_all <- df_final %>% subset(Country=="Italy" | Country=="Russia" | Country=="Nigeria" | Country=="Vietnam" | Country=="Brazil" | Country=="United Arab Emirates" | Country =="Austria" | Country == "United States" | Country == "Singapore" | Country == "Mexico")
 
